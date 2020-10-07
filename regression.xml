@@ -2,10 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="regerrisontest">
  <parameter name="browser" value="chrome" />
-     <test name="Regression">
+     <test name="Regression" preserve-order="false">
          <classes>
              <class name="Tests.UserRegistrationTestWithJavaFaker"/>
              <class name="Tests.SearchProductTest"/>
+            <class name="Tests.ProductHoverMenuTest"/>
+             
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -4,7 +4,8 @@
  <parameter name="browser" value="chrome" />
      <test name="Regression">
          <classes>
-             <class name="Tests.UserRegistrationTest"/>
+             <class name="Tests.UserRegistrationTestWithJavaFaker"/>
+             <class name="Tests.SearchProductTest"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite -->

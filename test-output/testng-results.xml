@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-05T14:16:28 EET" name="Default suite" finished-at="2020-10-05T14:16:48 EET" duration-ms="20090">
+  <suite started-at="2020-10-06T15:07:43 EET" name="Default suite" finished-at="2020-10-06T15:07:58 EET" duration-ms="14939">
     <groups>
     </groups>
-    <test started-at="2020-10-05T14:16:28 EET" name="Default test" finished-at="2020-10-05T14:16:48 EET" duration-ms="20090">
-      <class name="Tests.UserRegistrationTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:20 EET" name="startDriver" finished-at="2020-10-05T14:16:28 EET" duration-ms="8587" status="PASS">
+    <test started-at="2020-10-06T15:07:43 EET" name="Default test" finished-at="2020-10-06T15:07:58 EET" duration-ms="14939">
+      <class name="Tests.UserRegistrationTestWithJavaFaker">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:35 EET" name="startDriver" finished-at="2020-10-06T15:07:43 EET" duration-ms="7704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,56 +18,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:28 EET" name="UserCanRegisterSuccssfully" finished-at="2020-10-05T14:16:34 EET" duration-ms="6101" status="PASS">
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:43 EET" name="UserCanRegisterSuccssfully" finished-at="2020-10-06T15:07:48 EET" duration-ms="5534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccssfully -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:34 EET" name="screenshotOnFailure" finished-at="2020-10-05T14:16:34 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:48 EET" name="screenshotOnFailure" finished-at="2020-10-06T15:07:48 EET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTest.UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTest@ba54932] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTestWithJavaFaker.UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="RegisteredUserCanLogout()[pri:2, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:34 EET" name="RegisteredUserCanLogout" finished-at="2020-10-05T14:16:38 EET" duration-ms="3364" status="PASS">
+        <test-method signature="RegisteredUserCanLogout()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:48 EET" name="RegisteredUserCanLogout" finished-at="2020-10-06T15:07:50 EET" depends-on-methods="Tests.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccssfully" duration-ms="1944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogout -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:38 EET" name="screenshotOnFailure" finished-at="2020-10-05T14:16:38 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:50 EET" name="screenshotOnFailure" finished-at="2020-10-06T15:07:50 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=UserRegistrationTest.RegisteredUserCanLogout()[pri:2, instance:Tests.UserRegistrationTest@ba54932] output={null}]]]>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=UserRegistrationTestWithJavaFaker.RegisteredUserCanLogout()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="RegisteredUserCanLogin()[pri:3, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:38 EET" name="RegisteredUserCanLogin" finished-at="2020-10-05T14:16:48 EET" duration-ms="10585" status="PASS">
+        <test-method signature="RegisteredUserCanLogin()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:50 EET" name="RegisteredUserCanLogin" finished-at="2020-10-06T15:07:58 EET" depends-on-methods="Tests.UserRegistrationTestWithJavaFaker.RegisteredUserCanLogout" duration-ms="7409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogin -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:48 EET" name="screenshotOnFailure" finished-at="2020-10-05T14:16:48 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:58 EET" name="screenshotOnFailure" finished-at="2020-10-06T15:07:58 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RegisteredUserCanLogin status=SUCCESS method=UserRegistrationTest.RegisteredUserCanLogin()[pri:3, instance:Tests.UserRegistrationTest@ba54932] output={null}]]]>
+                <![CDATA[[TestResult name=RegisteredUserCanLogin status=SUCCESS method=UserRegistrationTestWithJavaFaker.RegisteredUserCanLogin()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.UserRegistrationTest@ba54932]" started-at="2020-10-05T14:16:48 EET" name="stopDriver" finished-at="2020-10-05T14:16:49 EET" duration-ms="662" status="PASS">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@7b306b9f]" started-at="2020-10-06T15:07:58 EET" name="stopDriver" finished-at="2020-10-06T15:07:58 EET" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
-      </class> <!-- Tests.UserRegistrationTest -->
+      </class> <!-- Tests.UserRegistrationTestWithJavaFaker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

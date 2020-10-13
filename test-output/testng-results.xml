@@ -2,12 +2,12 @@
 <testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-13T11:57:12 EET" name="regerrisontest" finished-at="2020-10-13T11:57:39 EET" duration-ms="27186">
+  <suite started-at="2020-10-13T12:27:39 EET" name="regerrisontest" finished-at="2020-10-13T12:27:55 EET" duration-ms="15630">
     <groups>
     </groups>
-    <test started-at="2020-10-13T11:57:12 EET" name="Regression" finished-at="2020-10-13T11:57:39 EET" duration-ms="27186">
+    <test started-at="2020-10-13T12:27:39 EET" name="Regression" finished-at="2020-10-13T12:27:55 EET" duration-ms="15630">
       <class name="Tests.UserRegistrationTestWithJavaFaker">
-        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:03 EET" name="startDriver" finished-at="2020-10-13T11:57:12 EET" duration-ms="8551" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:29 EET" name="startDriver" finished-at="2020-10-13T12:27:39 EET" duration-ms="10222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:18 EET" name="UserCanRegisterSuccssfully" finished-at="2020-10-13T11:57:23 EET" duration-ms="5361" status="PASS">
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:44 EET" name="UserCanRegisterSuccssfully" finished-at="2020-10-13T12:27:50 EET" duration-ms="5499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccssfully -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:23 EET" name="screenshotOnFailure" finished-at="2020-10-13T11:57:23 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:50 EET" name="screenshotOnFailure" finished-at="2020-10-13T12:27:50 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="RegisteredUserCanLogout()[pri:2, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:23 EET" name="RegisteredUserCanLogout" finished-at="2020-10-13T11:57:25 EET" duration-ms="2425" status="PASS">
+        <test-method signature="RegisteredUserCanLogout()[pri:2, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:50 EET" name="RegisteredUserCanLogout" finished-at="2020-10-13T12:27:52 EET" duration-ms="2565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogout -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:25 EET" name="screenshotOnFailure" finished-at="2020-10-13T11:57:25 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:52 EET" name="screenshotOnFailure" finished-at="2020-10-13T12:27:52 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method signature="RegisteredUserCanLogin()[pri:3, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:25 EET" name="RegisteredUserCanLogin" finished-at="2020-10-13T11:57:39 EET" duration-ms="13344" status="PASS">
+        <test-method signature="RegisteredUserCanLogin()[pri:3, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:52 EET" name="RegisteredUserCanLogin" finished-at="2020-10-13T12:27:55 EET" duration-ms="2695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredUserCanLogin -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:39 EET" name="screenshotOnFailure" finished-at="2020-10-13T11:57:39 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:55 EET" name="screenshotOnFailure" finished-at="2020-10-13T12:27:55 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,17 +63,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T11:57:39 EET" name="stopDriver" finished-at="2020-10-13T11:57:40 EET" duration-ms="1507" status="PASS">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.UserRegistrationTestWithJavaFaker@b0a1231]" started-at="2020-10-13T12:27:55 EET" name="stopDriver" finished-at="2020-10-13T12:27:56 EET" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
       </class> <!-- Tests.UserRegistrationTestWithJavaFaker -->
       <class name="Tests.ProductHoverMenuTest">
-        <test-method signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:Tests.ProductHoverMenuTest@4694f434]" started-at="2020-10-13T11:57:16 EET" name="UserCanSelectSubCategoryFromMainMenu" finished-at="2020-10-13T11:57:18 EET" duration-ms="1345" status="PASS">
+        <test-method signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:Tests.ProductHoverMenuTest@4694f434]" started-at="2020-10-13T12:27:43 EET" name="UserCanSelectSubCategoryFromMainMenu" finished-at="2020-10-13T12:27:44 EET" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSelectSubCategoryFromMainMenu -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.ProductHoverMenuTest@4694f434]" started-at="2020-10-13T11:57:18 EET" name="screenshotOnFailure" finished-at="2020-10-13T11:57:18 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.ProductHoverMenuTest@4694f434]" started-at="2020-10-13T12:27:44 EET" name="screenshotOnFailure" finished-at="2020-10-13T12:27:44 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
         </test-method> <!-- screenshotOnFailure -->
       </class> <!-- Tests.ProductHoverMenuTest -->
       <class name="Tests.SearchProductTest">
-        <test-method signature="UserCanSearchForProducts()[pri:0, instance:Tests.SearchProductTest@4833eff3]" started-at="2020-10-13T11:57:12 EET" name="UserCanSearchForProducts" finished-at="2020-10-13T11:57:16 EET" duration-ms="4656" status="PASS">
+        <test-method signature="UserCanSearchForProducts()[pri:0, instance:Tests.SearchProductTest@4833eff3]" started-at="2020-10-13T12:27:39 EET" name="UserCanSearchForProducts" finished-at="2020-10-13T12:27:43 EET" duration-ms="3441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanSearchForProducts -->
-        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.SearchProductTest@4833eff3]" started-at="2020-10-13T11:57:16 EET" name="screenshotOnFailure" finished-at="2020-10-13T11:57:16 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.SearchProductTest@4833eff3]" started-at="2020-10-13T12:27:43 EET" name="screenshotOnFailure" finished-at="2020-10-13T12:27:43 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
